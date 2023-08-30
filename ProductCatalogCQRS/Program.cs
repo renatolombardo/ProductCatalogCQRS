@@ -1,9 +1,6 @@
 using MediatR;
-using ProductCatalogCQRS.Commands;
 using ProductCatalogCQRS.Data;
 using ProductCatalogCQRS.Extensions;
-using ProductCatalogCQRS.Models;
-using ProductCatalogCQRS.Queries;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
