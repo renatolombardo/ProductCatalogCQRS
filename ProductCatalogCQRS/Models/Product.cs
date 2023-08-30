@@ -3,6 +3,17 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ProductCatalogCQRS.Models;
 
+//public record Product (
+//    int Id,
+//    [StringLength(80, MinimumLength = 4)] string? Name,
+//    [StringLength(80, MinimumLength = 4)] string? Description,
+//    [StringLength(80, MinimumLength = 4)] string? Category,
+//    bool Active = true
+//    )
+//{
+//    [Column(TypeName = "decimal(10,2)")]
+//    public decimal Price { get; set; }
+//}
 public class Product
 {
     public int Id { get; set; }
